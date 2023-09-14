@@ -27,3 +27,86 @@ h1 {
   right:0;
   z-index: -1;
 }
+
+.header-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.header-icons a {
+    border: none!important;
+    padding: none;
+    margin: none
+}
+
+.down,.header-icons .icon {
+    color: #fff;
+    text-align: center
+}
+
+.header-icons .icon {
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .5s;
+    width: 20px;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid #fff
+}
+
+.header-icons .icon:active,.header-icons .icon:hover {
+    color: #1a222c;
+    background: #fff
+}
+
+
+.fa {
+    display: inline-block;
+    font: 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.header-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.header-icons a {
+    border: none!important;
+    padding: none;
+    margin: none
+}
+
+.down,.header-icons .icon {
+    color: #fff;
+    text-align: center
+}
+
+.header-icons .icon {
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .5s;
+    width: 20px;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid #fff
+}
+
+.header-icons .icon:active,.header-icons .icon:hover {
+    color: #1a222c;
+    background: #fff
+}
+
+
+.fa-envelope:before {
+    content: "\f0e0"
+}
